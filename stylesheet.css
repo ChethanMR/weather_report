@@ -1,0 +1,108 @@
+
+    
+    body{
+    background-image: url('https://img.freepik.com/free-vector/blue-sky-with-shiny-clouds-background_1017-23279.jpg?w=360');
+    background-image: url(https://img.freepik.com/free-vector/blue-sky-with-shiny-clouds-background_1017-23279.jpg?w=360);
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    }
+    .outer-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        /* padding: 30px;
+        border-radius: 35px;
+        box-shadow: 0px 2px 8px 1px grey; */
+    }
+
+    .search-area{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .search-area input{
+        margin-right: 10px;
+        padding: 5px;
+        width: 250px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .search-area button{
+        padding: 5px;
+    }
+
+    .temperature{
+        margin: 10px 20px 10px 10px;
+        padding: 5px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .display-digits{
+        font-size: 50px;
+    }
+    .convertion-button{
+     margin: 15px;
+    display: flex;
+    flex-direction: row;
+    }
+    .convertion-button button{
+        margin-right: 3px;
+    }
+
+    .display-details{
+        margin: 2px 8px 2px 15px;
+        width: 140px;
+        font-size: 18px;
+    }
+
+    .places{
+        margin: 10px;
+        padding: 5px;
+        /* width: 300px; */
+        margin-left: 20px;
+    }
+    .places h2{
+        margin: 5px 0px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .dayDeatils,
+    .looking{
+        margin: 3px;
+        font-size: 18px;
+        
+    }
+
+    .highlights{
+        background-color: rgb(235, 65, 175);
+        color: white;
+    }
+    
+
+    @media  screen and (max-width:880px) {
+
+        .outer-box{
+        flex-direction: column;
+        /* border: 1px solid black; */
+        /* border-radius: 35px;
+        box-shadow: 0px 2px 8px 1px grey; */
+        margin:  50px 50px;
+        }
+
+        .places{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+        }
+        
+        
+    }
+    
